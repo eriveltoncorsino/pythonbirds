@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
+import placa_grafica
 from atores import PassaroVermelho, PassaroAmarelo, Porco, Obstaculo
 from fase import Fase
-import placa_grafica
 
 fase_exemplo = Fase()
 passaros = [PassaroVermelho(3, 3), PassaroAmarelo(3, 3), PassaroAmarelo(3, 3)]

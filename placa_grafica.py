@@ -1,8 +1,9 @@
 # -*- coding: utf-8 -*-
 import os
 import platform
-import time
 import sys
+import time
+
 from templates import FIM
 
 try:

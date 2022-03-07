@@ -1,6 +1,4 @@
 # -*- coding: utf-8 -*-
-from itertools import chain
-from atores import ATIVO
 
 
 VITORIA = 'VITORIA'

@@ -2,8 +2,6 @@
 
 from __future__ import unicode_literals
 
-import math
-
 DESTRUIDO = 'Destruido'
 ATIVO = 'Ativo'
 GRAVIDADE = 10  # m/s^2

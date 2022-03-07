@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
-from os import path
 import sys
+from os import path
 
 project_dir = path.dirname(__file__)
 project_dir = path.join('..')

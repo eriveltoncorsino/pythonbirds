@@ -1,12 +1,12 @@
 # -*- coding: utf-8 -*-
-from os import path
 import sys
+from os import path
 
 project_dir = path.dirname(__file__)
 project_dir = path.join('..')
 sys.path.append(project_dir)
 
-from atores import PassaroAmarelo, PassaroVermelho, Obstaculo, Porco
+from atores import PassaroAmarelo, Porco
 from fase import Fase
 from placa_grafica_tkinter import rodar_fase
 

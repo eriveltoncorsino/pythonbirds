@@ -1,11 +1,10 @@
 # -*- coding: utf-8 -*-
-from itertools import chain
 
+import math
 import os
+import sys
 from os import path
 from unittest.case import TestCase
-import math
-import sys
 
 project_dir = path.dirname(__file__)
 project_dir = path.join('..')
@@ -16,8 +15,7 @@ project_dir = os.path.join(os.path.dirname(__file__), '..')
 project_dir = os.path.normpath(project_dir)
 sys.path.append(project_dir)
 
-from atores import Obstaculo, Porco, PassaroVermelho, PassaroAmarelo, DESTRUIDO, ATIVO, \
-    Ator, Passaro
+from atores import Obstaculo, Porco, PassaroVermelho, PassaroAmarelo, DESTRUIDO
 from fase import Fase, Ponto, EM_ANDAMENTO, VITORIA, DERROTA
 
 class FaseTestes(TestCase):

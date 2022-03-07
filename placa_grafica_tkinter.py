@@ -1,13 +1,13 @@
 # coding: utf-8
+import math
 import time
+from os import path
 from tkinter import PhotoImage, NW, Tk, Canvas
 from tkinter.constants import ALL
-import math
-from os import path
-import atores
 
-from fase import Fase, EM_ANDAMENTO, VITORIA
+import atores
 from atores import PassaroVermelho, PassaroAmarelo, Porco, Obstaculo
+from fase import Fase, EM_ANDAMENTO, VITORIA
 
 ALTURA_DA_TELA = 600  # px
 
