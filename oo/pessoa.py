@@ -10,7 +10,7 @@ class Pessoa:
 
 if __name__ == '__main__':
     Lorenzo = Pessoa(nome ='Lorenzo') # o objeto complexo "lorenzo" é do tipo pessoa,
-    Silvana = Pessoa(Lorenzo, nome='Silvana') # e está passando ele para o atributo "Sivana"
+    Silvana = Pessoa(Lorenzo, nome='Silvana') # e está passando ele para o atributo "Silvana"
     print(Pessoa.cumprimentar(Silvana))
     print(id(Silvana))
     print(Silvana.cumprimentar())
