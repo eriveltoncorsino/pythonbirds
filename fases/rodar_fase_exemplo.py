@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
-import sys
 from os import path
+import sys
 
 project_dir = path.dirname(__file__)
 project_dir = path.join('..')

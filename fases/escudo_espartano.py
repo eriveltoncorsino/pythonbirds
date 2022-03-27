@@ -1,13 +1,13 @@
 # -*- coding: utf-8 -*-
-import math
-import sys
 from os import path
+import sys
+import math
 
 project_dir = path.dirname(__file__)
 project_dir = path.join('..')
 sys.path.append(project_dir)
 
-from atores import PassaroAmarelo, Obstaculo, Porco
+from atores import PassaroAmarelo, PassaroVermelho, Obstaculo, Porco
 from fase import Fase
 from placa_grafica_tkinter import rodar_fase
 from random import randint
